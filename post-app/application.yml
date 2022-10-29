@@ -1,0 +1,27 @@
+context:
+  initializer:
+    classes:
+      com.example.configuration.BeanInitializer
+
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://localhost/SocialApp"
+      port: 27017
+      username: root
+      password: example
+      uuid-representation: standard
+  application:
+    name: post-app
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

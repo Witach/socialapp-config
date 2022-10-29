@@ -1,0 +1,23 @@
+context:
+  initializer:
+    classes:
+      com.example.configuration.BeanInitializer
+
+feed-app:
+  feed:
+    size: 20
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: feed-app
