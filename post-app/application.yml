@@ -9,7 +9,7 @@ spring:
       uri: "mongodb://localhost/SocialApp"
       port: 27017
       username: root
-      password: example
+      password: {cipher}AQAMk0eGYq1sJbGJ6AAz1g4uTyu07SYaQANCHIrEId+6wBcfpIKWox8ng2DFu5naN1Ty+BfJKtrgqV+Aqlg99/ApDaY9lwDJMO81udCTp4OW6iDsYgXmwLya8a9qIIg3Xx8obj0lM69Rvc7mpvrbmXb3AcU0bYKpXV2LAAIZrEwnqX/aWHB1O8KRVQ34jMU6o6BayelflzhCje19gp+0/imW3xAHMkgRjyIczQzlP7uRz8ejJMtuvbdN5r2oStLbXxF6oUJzutGKQHq8yCETMjaiKh8D6jmLm/QRTiHwIP5wSnS0fJjupePkEJ5SxMAwrHfO51rSKKH4fLD7byuCqYAUhnp2gVeOKQDRA45SSBUs1xSomHn4BotCDMYoN35dnd8=
       uuid-representation: standard
   application:
     name: post-app
