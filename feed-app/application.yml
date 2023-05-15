@@ -3,8 +3,8 @@ spring:
     mongodb:
       uri: "mongodb://localhost/SocialApp"
       port: 27017
-      username: admin
-      password: admin
+      username: asd
+      password: asd
       authentication-database: SocialApp
       uuid-representation: standard
   application:
